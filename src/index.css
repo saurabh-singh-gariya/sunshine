@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3eaf2;
+}
+
+.app-content {
+  background-color: #5fd1f8;
+}
+
+.mini-card {
+  background-color: #beaaff;
+  border-radius: 10%;
+}
+
+.weatherCard {
+  background: #f8f8f8;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(225, 225, 225, 0.18);
+}
